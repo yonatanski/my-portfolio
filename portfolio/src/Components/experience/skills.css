@@ -1,0 +1,39 @@
+
+.skil_list{
+    display:flex;
+    flex-wrap: wrap;
+   
+    
+}
+.interests{
+    display:flex;
+    flex-direction: column;
+  
+    /* gap:10px 20px; */
+    
+   
+}
+.interests .icon-box {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    margin-right: 10rem;
+   
+    transition: ease-in-out 0.3s;
+  }
+  .interests .icon-box i {
+    font-size: 32px;
+    padding-right: 10px;
+    line-height: 1;
+  }
+  .interests .icon-box h3 {
+    font-weight: 700;
+    margin-right: 2rem;
+    padding: 0;
+    line-height: 1;
+    font-size: 16px;
+    color: #fff;
+  }
+  .interests .icon-box:hover {
+    background: rgba(255, 255, 255, 0.12);
+  }
