@@ -7,7 +7,9 @@ const EduDetail = () => {
     <div class="row resume">
       <h3 class="resume-title">Education</h3>
       <div class="resume-item">
-        <h4>EPICODE(STRIVE SCHOOL)- 6 MONTHS CODING BOOTCAMP</h4>
+        <a href="https://epicode.com/" target="_blank" rel="noreferrer">
+          <h4>EPICODE(STRIVE SCHOOL)- 6 MONTHS CODING BOOTCAMP</h4>
+        </a>
 
         <p>
           <small>European Intensive Bootcamp for STEM talents,Backed by Ycombinator</small>
@@ -16,8 +18,9 @@ const EduDetail = () => {
         <p>Full-stack web development course based on hands-on projects , Focused on MERN stack technologies</p>
       </div>
       <div class="resume-item">
-        <h4>WSB UNIVERSITY</h4>
-
+        <a href="https://www.wsb.pl/" target="_blank" rel="noreferrer">
+          <h4>WSB UNIVERSITY</h4>
+        </a>
         <p>
           <small>BSc Information Technology Speciality in Web Development</small>
         </p>

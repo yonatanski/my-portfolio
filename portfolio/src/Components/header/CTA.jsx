@@ -6,9 +6,11 @@ import CV from "../../assets/Yonatan-Deribe CV.pdf"
 const CTA = () => {
   return (
     <div className="cta ms-2">
-      <a href="https://drive.google.com/uc?export=download&id=1NjKjkENcNcsK1u4lMb4rR5HoAOc7A92x" download className="btn">
+      {/* https://drive.google.com/uc?export=download&id=1NjKjkENcNcsK1u4lMb4rR5HoAOc7A92x */}
+      <a href="https://drive.google.com/file/d/1NjKjkENcNcsK1u4lMb4rR5HoAOc7A92x/view?usp=sharing" download className="btn" target="_blank" rel="noreferrer">
         Download CV
       </a>
+
       <a href="#contact" className="btn  btn-primary">
         {" "}
         Let's Talk{" "}

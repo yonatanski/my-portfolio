@@ -55,3 +55,45 @@
   background: #18d26e;
   border: 2px solid #18d26e;
 }
+/* ======= MEDIA QUERIES(MEDIUM DEVICES)=========  */
+@media screen and (max-width: 1024px){
+  .resume .resume-item {
+    padding: 0 0 10px 10px;
+    margin-top: -2px;
+    border-left: 2px solid rgba(255, 255, 255, 0.2);
+    position: relative;
+  }
+  input,textarea {
+      width:100%;
+      color:#fff;
+      padding: 1.5rem;
+      margin-bottom: 1rem;
+      border-radius: 0.5rem;
+      background:transparent;
+      border:2px solid green;
+      resize: none;
+     }
+  }
+  
+  /* 
+  ======= MEDIA QUERIES(SMALL DEVICES)========= */
+  @media screen and (max-width: 600px){
+    .skil_list{
+      display:flex;
+      flex-wrap: wrap;
+      gap: 4px;
+     
+  }
+  .portfolio .portfolio-item {
+    margin-bottom: 30px;
+    margin-left: 0rem;
+    justify-content:space-between;
+  }
+      .about__content{
+          text-align:center;
+  
+      }
+      .about__content p{
+          margin: 1.5rem 0;
+      }
+    }
