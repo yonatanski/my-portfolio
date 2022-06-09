@@ -38,24 +38,7 @@ const Projects = () => {
                 <h4>E-commerce Website</h4>
                 <p>Build with MERN stack techngologies</p>
                 <div className="portfolio-links">
-                  <a href={two} data-gallery="portfolioGallery" className="portfolio-lightbox" title="Source Code">
-                    <BsFileCodeFill />
-                  </a>
-                  <a href="https://solo-captone-front-end.vercel.app/" target="_blank" rel="noreferrer" className="portfolio-details-lightbox" title="Demo">
-                    <BiLinkExternal />
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="portfolio-item filter-app">
-            <div className="portfolio-wrap">
-              <img src={one} className="img-fluid" alt="" />
-              <div className="portfolio-info">
-                <h4>E-commerce Website</h4>
-                <p>Build with MERN stack techngologies</p>
-                <div className="portfolio-links">
-                  <a href={two} data-gallery="portfolioGallery" className="portfolio-lightbox" title="Source Code">
+                  <a href="https://github.com/yonatanski/solo-captone_front-end/tree/main/capstone_app-fe" target="_blank" rel="noreferrer" className="portfolio-lightbox" title="Source Code">
                     <BsFileCodeFill />
                   </a>
                   <a href="https://solo-captone-front-end.vercel.app/" target="_blank" rel="noreferrer" className="portfolio-details-lightbox" title="Demo">
