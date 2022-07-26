@@ -53,8 +53,9 @@ const Projects = () => {
             <div className="portfolio-wrap">
               <img src={two} className="img-fluid w-100 h-100" alt="" />
               <div className="portfolio-info">
-                <h4>E-commerce Website</h4>
-                <p>Build with MERN stack techngologies</p>
+                <h4>Spotify Clone</h4>
+                <p>React Spotify Clone</p>
+
                 <div className="portfolio-links">
                   <a href="https://github.com/yonatanski/spotify-clone_react" target="_blank" rel="noreferrer" className="portfolio-lightbox" title="Source Code">
                     <BsFileCodeFill />
