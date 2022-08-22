@@ -7,7 +7,7 @@ nav{
   position: fixed;
   left: 50%;
   transform: translateX(-50%);
-  bottom: 2rem;
+  bottom: 1rem;
   display: flex;
   gap: 0.8rem;
   border-radius: 3rem;
@@ -33,4 +33,15 @@ nav a:hover{
 nav a.active{
     background: #1f1f38;
     color:#fff;
+}
+
+.iconfomenu{
+  display: flex;
+  flex-direction:column;
+  margin-left: 0.7rem;
+}
+
+.iconfomenu>span{
+  font-size: 0.6rem;
+  align-self: center;
 }

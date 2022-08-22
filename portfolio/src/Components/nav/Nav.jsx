@@ -12,25 +12,34 @@ const Nav = () => {
   return (
     <nav>
       {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
-      <a href="#" onClick={() => setActiveNav("#")} className={activeNav === "#" ? "active" : ""}>
-        <AiOutlineHome />
-      </a>
-
-      <a href="#about" onClick={() => setActiveNav("#about")} className={activeNav === "#about" ? "active" : ""}>
-        <AiOutlineUser />
-      </a>
-
-      <a href="#skills" onClick={() => setActiveNav("#skills")} className={activeNav === "#skills" ? "active" : ""}>
-        <BiBook />
-      </a>
+      <div className="iconfomenu">
+        <a href="#" onClick={() => setActiveNav("#")} className={activeNav === "#" ? "active" : ""}>
+          <AiOutlineHome />
+        </a>
+        <span>Home</span>
+      </div>
+      <div className="iconfomenu">
+        <a href="#about" onClick={() => setActiveNav("#about")} className={activeNav === "#about" ? "active" : ""}>
+          <AiOutlineUser />
+        </a>
+        <span>About</span>
+      </div>
+      <div className="iconfomenu">
+        <a href="#skills" onClick={() => setActiveNav("#skills")} className={activeNav === "#skills" ? "active" : ""}>
+          <BiBook />
+        </a>
+        <span>Projects</span>
+      </div>
 
       {/* <a href="#services" onClick={() => setActiveNav("#services")} className={activeNav === "#services" ? "active" : ""}>
         <RiServiceLine />
       </a> */}
-
-      <a href="#contact" onClick={() => setActiveNav("#contact")} className={activeNav === "#contact" ? "active" : ""}>
-        <BiMessageSquareDetail />
-      </a>
+      <div className="iconfomenu">
+        <a href="#contact" onClick={() => setActiveNav("#contact")} className={activeNav === "#contact" ? "active" : ""}>
+          <BiMessageSquareDetail />
+        </a>
+        <span>Contact</span>
+      </div>
     </nav>
   )
 }

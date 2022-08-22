@@ -1,3 +1,6 @@
+#title{
+  margin-bottom: 1rem;
+}
 .projects-wrapper{
   display: flex;
   flex-wrap: wrap;
@@ -13,10 +16,10 @@
  z-index: 1;
  background: rgba(0, 0, 0, 0.6);
 }
-.portfolio-info>.warrning{
+/* .portfolio-info>.warrning{
   font-size: 0.6rem;
   color: rgb(178, 17, 17)!important;
-}
+} */
 
 .portfolio-item>img{
   width: 100%;

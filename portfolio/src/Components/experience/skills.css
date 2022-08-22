@@ -36,6 +36,9 @@
     
    
 }
+#title{
+  margin-bottom: 1rem;
+}
 
 .skil_list{
   display:flex;
