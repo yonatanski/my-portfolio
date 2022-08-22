@@ -6,9 +6,9 @@ import one from "../../assets/portfolio/portfolio-1.png"
 import two from "../../assets/portfolio/portfolio-2.png"
 import three from "../../assets/portfolio/portfolio-3.JPG"
 import four from "../../assets/portfolio/portfolio-4.JPG"
-import five from "../../assets/portfolio/portfolio-5.jpg"
-import six from "../../assets/portfolio/portfolio-6.jpg"
-import seven from "../../assets/portfolio/portfolio-7.jpg"
+// import five from "../../assets/portfolio/portfolio-5.jpg"
+// import six from "../../assets/portfolio/portfolio-6.jpg"
+// import seven from "../../assets/portfolio/portfolio-7.jpg"
 
 const Projectss = () => {
   return (
