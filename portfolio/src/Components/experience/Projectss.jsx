@@ -4,8 +4,8 @@ import { BsFileCodeFill } from "react-icons/bs"
 import { BiLinkExternal } from "react-icons/bi"
 import one from "../../assets/portfolio/portfolio-1.png"
 import two from "../../assets/portfolio/portfolio-2.png"
-import three from "../../assets/portfolio/portfolio-3.JPG"
-import four from "../../assets/portfolio/portfolio-4.JPG"
+import three from "../../assets/portfolio/portfolio-3.png"
+import four from "../../assets/portfolio/portfolio-4.png"
 // import five from "../../assets/portfolio/portfolio-5.jpg"
 // import six from "../../assets/portfolio/portfolio-6.jpg"
 // import seven from "../../assets/portfolio/portfolio-7.jpg"
@@ -47,7 +47,7 @@ const Projectss = () => {
           </div>
         </div>
         <div className="portfolio-item ">
-          <img src={three} className="" alt="" />
+          <img src={four} className="" alt="" />
           <div className="portfolio-info">
             <h4>Linkedin Clone</h4>
             <p>Fully functional Spotify Clone</p>
@@ -68,7 +68,7 @@ const Projectss = () => {
           </div>
         </div>
         <div className="portfolio-item ">
-          <img src={four} className="" alt="" />
+          <img src={three} className="" alt="" />
           <div className="portfolio-info">
             <h4>Pizza Delivery App</h4>
             <small>Frontend built with NextJS,zustand(state managment)</small>
