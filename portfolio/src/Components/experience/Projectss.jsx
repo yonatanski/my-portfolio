@@ -6,6 +6,8 @@ import one from "../../assets/portfolio/portfolio-1.png"
 import two from "../../assets/portfolio/portfolio-2.png"
 import three from "../../assets/portfolio/portfolio-3.png"
 import four from "../../assets/portfolio/portfolio-4.png"
+import five from "../../assets/portfolio/portfolio-5.png"
+import six from "../../assets/portfolio/portfolio-6.png"
 // import five from "../../assets/portfolio/portfolio-5.jpg"
 // import six from "../../assets/portfolio/portfolio-6.jpg"
 // import seven from "../../assets/portfolio/portfolio-7.jpg"
@@ -79,6 +81,38 @@ const Projectss = () => {
                 <BsFileCodeFill />
               </a>
               <a href="https://food-delivery-app-olive.vercel.app/" target="_blank" rel="noreferrer" className="portfolio-details-lightbox" title="Demo">
+                <BiLinkExternal />
+              </a>
+            </div>
+          </div>
+        </div>
+        <div className="portfolio-item ">
+          <img src={five} className="" alt="" />
+          <div className="portfolio-info">
+            <h4>Fitness Culb Website</h4>
+            <small> built with React js </small>
+
+            <div className="portfolio-links">
+              <a href="https://github.com/yonatanski/FitClub-Web" target="_blank" rel="noreferrer" className="portfolio-lightbox" title="Source Code">
+                <BsFileCodeFill />
+              </a>
+              <a href="https://fit-club-web.vercel.app/" target="_blank" rel="noreferrer" className="portfolio-details-lightbox" title="Demo">
+                <BiLinkExternal />
+              </a>
+            </div>
+          </div>
+        </div>
+        <div className="portfolio-item ">
+          <img src={six} className="" alt="" />
+          <div className="portfolio-info">
+            <h4>Amazon prime Clone</h4>
+            <small> built with React js </small>
+
+            <div className="portfolio-links">
+              <a href="https://github.com/yonatanski/amazon-prime" target="_blank" rel="noreferrer" className="portfolio-lightbox" title="Source Code">
+                <BsFileCodeFill />
+              </a>
+              <a href="https://amazon-prime-theta.vercel.app/" target="_blank" rel="noreferrer" className="portfolio-details-lightbox" title="Demo">
                 <BiLinkExternal />
               </a>
             </div>
