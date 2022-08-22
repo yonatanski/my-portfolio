@@ -1,5 +1,5 @@
 import React from "react"
-import Projects from "./Projects"
+import Projectss from "./Projectss"
 import "./skills.css"
 import Tools from "./Tools"
 
@@ -8,8 +8,10 @@ const Skills = () => {
     <section id="skills">
       <h5>Get to Know</h5>
       <h2>Skills and Projects</h2>
-      <Tools />
-      <Projects />
+      <div className="container">
+        <Tools />
+        <Projectss />
+      </div>
     </section>
   )
 }

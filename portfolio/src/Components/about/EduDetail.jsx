@@ -5,7 +5,7 @@ const EduDetail = () => {
   return (
     // <div class="container resume">
     <div class="row resume">
-      <h3 class="resume-title">Education</h3>
+      <h3 class="resume-title">education</h3>
       <div class="resume-item">
         <a href="https://epicode.com/" target="_blank" rel="noreferrer">
           <h4>EPICODE(STRIVE SCHOOL)- 6 MONTHS CODING BOOTCAMP</h4>
@@ -14,8 +14,8 @@ const EduDetail = () => {
         <p>
           <small>European Intensive Bootcamp for STEM talents,Backed by Ycombinator</small>
         </p>
-        <h5>Online | Oct 2021 - March 2022</h5>
-        <p>Full-stack web development course based on hands-on projects , Focused on MERN stack technologies</p>
+        <h5>Online | Oct 2021 - Mar 2022</h5>
+        <p class="resume-detail">Full-stack web development course based on hands-on projects , Focused on MERN stack technologies</p>
       </div>
       <div class="resume-item">
         <a href="https://www.wsb.pl/" target="_blank" rel="noreferrer">
@@ -24,8 +24,8 @@ const EduDetail = () => {
         <p>
           <small>BSc Information Technology Speciality in Web Development</small>
         </p>
-        <h5>Torun,Poland | March 2021 - March 2024</h5>
-        <p>Studying web Development, Database Management, Word Processing, UserInterface Design, Python, Computer Networking, and Architecture,Data Structure and Algorithm</p>
+        <h5>Torun,Poland | Mar 2021 - Mar 2024</h5>
+        <p class="resume-detail">Studying web Development, Database Management, Word Processing, UserInterface Design, Python, Computer Networking, and Architecture,Data Structure and Algorithm</p>
       </div>
       {/* <div class="col-lg-6">
           <h3 class="resume-title">Professional Experience</h3>

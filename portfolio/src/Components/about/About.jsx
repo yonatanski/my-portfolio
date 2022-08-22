@@ -1,6 +1,6 @@
 import React from "react"
 import "./about.css"
-import me from "../../assets/mine.jpg"
+import me from "../../assets/me.jpg"
 import EduDetail from "./EduDetail"
 import { FaAward } from "react-icons/fa"
 import { FiDivideSquare, FiUsers } from "react-icons/fi"
@@ -10,15 +10,18 @@ import ExperianceDetail from "./ExperianceDetail"
 const About = () => {
   return (
     <section id="about">
-      <h5>Get to Know</h5>
+      <h5 className="gettonow">Get to Know</h5>
       <h2>About Me</h2>
       <div className="container about__container">
-        <div className="about__me">
+        <div className="about__mee">
           <div className="about__me-image">
             <img src={me} alt="my" />
           </div>
           <div className="detail">
-            <p id="aboutmedetail">I'm Yonatan, focused on Full Stack and eager to work in a dynamic company to consolidate my skills, and get my TECHN career to the next level. I put forward in everything I do!</p>
+            <p id="aboutmedetail">
+              Full Stack Web Developer with ability to learn and collaborate in rapidly changing environments and compositions.expiranced through 1000+ hours of coding bootcamp course,learning JavaScript,Node.Js,React.Js and the over all MERN stack
+              technologies. Eager to change mockups to life as fully-functional applications and to tackle web development challenges to achieve lasting impacts on user experience.
+            </p>
             <a href="#contact" className="btn btn-primary">
               Let's Talk
             </a>

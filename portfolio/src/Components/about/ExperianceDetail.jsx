@@ -5,24 +5,34 @@ const ExperianceDetail = () => {
   return (
     // <div class="container resume">
     <div class="row resume">
-      <h3 class="resume-title">Work Experience</h3>
+      <h3 class="resume-title">Work experience</h3>
       <div class="resume-item">
         <h4>EPICODE (STRIVE SCHOOL)| Tutor-VOLUNTEER</h4>
 
         <p>
           <small>European Intensive Bootcamp for STEM talents,Backed by Ycombinator</small>
         </p>
-        <h5>Online | February 2022–Present</h5>
-        <p>Helping Lower batches when they faced the problem, Fixing code bugs on virtual meetings on a shared screen, Guiding students on how to do their projects, Sharing my coding experience</p>
+        <h5>Online | Feb 2022 – May-2022</h5>
+
+        <ul>
+          <li>Helping Lower batches when they faced the problem</li>
+          <li>Fixing code bugs on virtual meetings on a shared screen</li>
+          <li>Guiding students on how to do their projects</li>
+        </ul>
       </div>
       <div class="resume-item">
         <h4>Reconext| Electronics Quality Tester</h4>
 
         <p>
-          <small>a dedicated company to continuous improvement and innovation in repair, remanufacturing, refurbishment, reclamation and reuse electronics devices </small>
+          <small>a dedicated company to continuous improvement and innovation in repair electronics devices </small>
         </p>
-        <h5>Bydgoszcz,Poland | April 2021–September 2021</h5>
-        <p>I was in Charge of Testing the final Product before sent to Production, Refurbishing Electronic Devices, Installing New software for refurbished electronic Devices</p>
+        <h5>Bydgoszcz,Poland | Apr 2021 – Sep 2021</h5>
+        {/* <p class="resume-detail">I was in Charge of Testing the final Product before sent to Production, Refurbishing Electronic Devices, Installing New software for refurbished electronic Devices</p> */}
+        <ul>
+          <li>I was in Charge of Testing the final Product before sent to Production</li>
+          <li>Refurbishing Electronic Devices</li>
+          <li>Installing New software for refurbished electronic Devices</li>
+        </ul>
       </div>
       {/* <div class="col-lg-6">
          <h3 class="resume-title">Professional Experience</h3>

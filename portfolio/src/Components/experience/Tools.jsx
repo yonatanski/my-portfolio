@@ -7,10 +7,10 @@ import { FaGithubSquare } from "react-icons/fa"
 
 const Tools = () => {
   return (
-    <div class="interests container">
-      <div class="section-title">
+    <div class="interests">
+      {/* <div class="section-title">
         <h2>Skills</h2>
-      </div>
+      </div> */}
 
       <div class="skil_list">
         <div class="icon-box">

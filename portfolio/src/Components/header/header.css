@@ -8,6 +8,10 @@ header {
   height: 100%;
   position: relative;
 }
+.header__container>h5 {
+  font-size: 1rem
+
+}
 /* CTA */
 .cta {
   margin-top: 2.5rem;

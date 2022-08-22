@@ -59,8 +59,8 @@ body{
 h1,
 h2,
 h3,
-h4,
-h5{
+h4
+{
  font-weight: 500 !important;
 }
 h1{
@@ -76,13 +76,14 @@ section{
   width: 100%;
 }
 
-section> h2,
 section >h5{
   text-align: center;
+  margin-top: 3rem;
   color: var(--color-light);
 }
 
 section> h2{
+  text-align: center;
   color: var(--color-primary);
   margin-bottom: 3rem;
 }
