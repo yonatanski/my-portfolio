@@ -7,7 +7,7 @@ const CTA = () => {
   return (
     <div className="cta ms-2">
       {/* https://drive.google.com/uc?export=download&id=1NjKjkENcNcsK1u4lMb4rR5HoAOc7A92x */}
-      <a href="https://drive.google.com/file/d/1NjKjkENcNcsK1u4lMb4rR5HoAOc7A92x/view?usp=sharing" download className="btn" target="_blank" rel="noreferrer">
+      <a href="https://drive.google.com/file/d/1IJ2soRwJUWHCRSzCNvbSrzQNU3EANpZY/view?usp=sharing" download className="btn" target="_blank" rel="noreferrer">
         Open CV
       </a>
 
